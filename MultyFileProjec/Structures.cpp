@@ -1,0 +1,9 @@
+#include "Structures.hpp"
+
+void print_person(const Person& P)
+{
+	std::cout << "Имя: " << P.name << std::endl;
+	std::cout << "Возраст: " << P.age << std::endl;
+	std::cout << "Должность: " << P.job << std::endl;
+	std::cout << "Зарпата: " << P.salary << std::endl;
+}
